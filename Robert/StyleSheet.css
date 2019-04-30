@@ -1,5 +1,5 @@
 ﻿body {
-    background:url("t.jpg");
+    background:url("a.jpg")no-repeat;
     background-size:cover;
     font-family:Arial;
     color:white;
@@ -40,14 +40,15 @@ ul li a:hover {
     text-transform:uppercase; 
 }
 aside {
-    width: 250px;
+    width: 240px;
     float:left ;
-    padding-left: 10px;
+   
 }
 
 article {
-    width: 700px;
-    float: right;
+    width:600px;
+    float:right;
+    
 }
 h2 {
     color: green;
@@ -79,7 +80,8 @@ p {
     font-weight:200;
     font-style:italic;
     text-indent:30px;
-
+  
+    min-width:480px
 }
 footer {
     background-color: #EEEEEE;
@@ -100,7 +102,7 @@ a {
 
 
 #container {
-  width:1000px;
+  
      margin:auto;
    
 }
@@ -163,6 +165,17 @@ a {
     }
 
 
+
+
+#f {
+    width:105%;
+    max-width:1920px;
+    min-width:480px;
+    
+    
+
+
+}
 
     
 #containers {
