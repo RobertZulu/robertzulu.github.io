@@ -1,8 +1,21 @@
 ﻿body {
-    background:url("f.jpg")no-repeat;
-    background-size:cover;
-    font-family:Arial;
+   background: url("f.jpg");
     color:white;
+    
+    background-size:cover;
+
+        animation:f_anim 40s linear infinite;
+   
+}
+@keyframes f_anim {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -2122px 0;
+    }
+
 }
 ul {
     margin: 0px;
