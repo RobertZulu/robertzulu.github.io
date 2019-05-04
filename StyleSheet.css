@@ -210,3 +210,68 @@ a {
 
 
 
+
+.box {
+   
+   position:absolute;
+   top:170%;
+   right:83%;
+   transform:translate(-50%,-50%);
+
+}
+.inner {
+    position:absolute;
+    width:850px;
+    height:55px;
+    
+    font-size: 49px;
+    font-family: sans-serif;
+    font-weight: 800;
+    white-space: nowrap;
+    box-shadow: 4px 6px 8px;
+   overflow:hidden;
+   text-align:center;
+    
+}
+.containeer {
+    width: 100px;
+}
+
+    .inner:first-child {
+        background: indianred;
+        color:black; 
+        transform-origin:right ;
+        right:0; 
+        transform: perspective(800px) rotateY(-60deg);
+        
+    }
+
+.inner:last-child {
+    background: lightcoral;
+    color: white;
+    transform-origin:left ;
+ left:0;
+    transform: perspective(800px) rotateY(60deg);
+    
+}
+
+    
+
+.inner span {
+    position: absolute;
+    animation: marquee 5s linear infinite;
+}
+.inner:first-child span {
+    animation-delay: 2.5s;
+    right: 100%;
+}
+
+@keyframes marquee {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: -100%;
+    }
+}
