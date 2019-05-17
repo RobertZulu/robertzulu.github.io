@@ -356,7 +356,7 @@ a {
 .box {
    
    position:absolute;
-   top:170%;
+   top:150%;
    right:83%;
    transform:translate(-50%,-50%);
 
@@ -516,7 +516,7 @@ input [placeholder] {
 /*search button */
 .search-box {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 83%;
     transform: translate(-50%,-50%);
     background-color: #2f3640;
@@ -544,7 +544,7 @@ input [placeholder] {
 /*search button 2*/
 .search-box1 {
     position: absolute;
-    top: 220%;
+    top: 185%;
     right: 70%;
     transform: translate(-50%,-50%);
     background-color: #2f3640;
