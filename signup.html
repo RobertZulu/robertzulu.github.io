@@ -1,0 +1,49 @@
+﻿<<?php
+ session_start();
+    ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+
+       
+</head>
+<body>
+    <link href="StyleSheet1.css"rel="stylesheet" />
+<header>
+    <nav>
+        <div class="main-wrapper">
+            <ul>
+                <li><a href="index.html">home</a></li>
+            </ul>
+            <div class="nav-login">
+                <form action="log.html" method="post">
+                    <input type="text"name="uid"placeholder="Username /E-mail" />
+                     <input type="password"name="pwd"placeholder="password" />
+                     <button type="submit"name="submit">Login</button>
+                </form>
+                <a href="sign.html">Sign up</a>
+            </div>
+        </div>
+    </nav>
+</header>
+     <section class="main-container">
+        <div class="main-wrapper">
+            <h2>Sign up</h2>
+
+
+            <form class="signup-form" action="database.html" method="post">
+<input type="text"name="first"placeholder ="Firstname" />
+<input type="text"name="last"placeholder ="Lastname" />
+<input type="text"name="email"placeholder ="E-mail" />
+<input type="password"name="pwd"placeholder ="password" />
+                <button type="submit"name="submit">SIGN UP</button>
+
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>
